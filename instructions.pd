@@ -13,14 +13,36 @@ You will need to do this each time you return to your Gitpod workspace for the D
 
 
 
-
-
-
-
-
 Extra Links:
 
 Code Institute Gitpod Template (Important: You must use this Gitpod Template to complete this module)
 Chinook Database SQL
 
 wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_PostgreSql.sql
+
+
+
+__instructions and commands__
+
+1. To view, or list, any databases in our environment, we can type \l.
+
+2. to cvreate a new database , type , CREATE DATABASE chinook;
+
+3.  the standard way to separate each SQL statement is by adding a semicolon at the end of the statement, since you can theoretically
+combine multiple commands in a single entry.
+
+4. If we needed to switch between databases, we can simply type \c followed by the name
+of the database we want to switch over to.
+\c postgres - now we're on the default postgres database.
+\c chinook - and now we're connected to our new database.
+The \c stands for 'connect' in case you're wondering, telling it which database to connect to.
+
+5. to install the downloaded sample Chinook PostgreSQL database.
+you use : \i Chinook_PostgreSql.sql The \i generally means include, integrate, install, or initialize.
+
+6. 
+
+
+
+
+

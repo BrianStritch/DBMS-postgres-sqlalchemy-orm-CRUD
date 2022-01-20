@@ -39,7 +39,8 @@ cursor = connection.cursor()
 #cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["AC/DC"])
 
 # query 8 - select all tracks where the test is "AC/DC" from the "Track" table
-#cursor.execute('SELECT * FROM "Track" WHERE "test" = %s', ["AC/DC"])
+#cursor.execute('SELECT * FROM "Track" WHERE "test" = %s', ["AC/DC"]) this will throw a syntax error as no such directory "test"
+#cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["test"]) #-- this will throw an error as no data to fetch
 
 
 # fetch the results (multiple)

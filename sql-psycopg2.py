@@ -1,8 +1,15 @@
+"""
+this is sqlAlchemy's lowest base level which executes raw sql using the sqlAlchemy engine
+
+
+
 # to import psycopg2 you type the following into the command line 
 # pip3 install psycopg2
 # to run the file you may need to initialise the database again with set_pg and psql and then exit and run this file
 # to run this file you run it like any python program          --------    python3 sql-psycopg2.py  ----------- in the terminal
 
+
+"""
 
 import psycopg2  
 

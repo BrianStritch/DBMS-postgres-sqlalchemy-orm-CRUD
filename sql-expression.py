@@ -1,3 +1,7 @@
+"""
+This is sqlAlchemy's middle level which uses pythonic type expressions
+"""
+
 # firstly import the relevant elements of sqlAlchemy
 
 from sqlalchemy import (
@@ -98,7 +102,7 @@ with db.connect() as connection:
     """
     
     #          query 1 - select all records from the "Artist" table
-    #select_query = artist_table.select()
+    # select_query = artist_table.select()
 
     #          query 2 - select only the name column from the "Artist" table         
     """
@@ -107,7 +111,7 @@ with db.connect() as connection:
                 Also, using dot-nation, we need to use ".c" in our selection, which will identify a specific
                 column header on the table.
     """
-    #select_query = artist_table.select().with_only_columns([artist_table.c.Name])
+    # select_query = artist_table.select().with_only_columns([artist_table.c.Name])
 
 
     #          query 3 - select only the Artist "Queen" the "Artist" table
@@ -118,11 +122,11 @@ with db.connect() as connection:
 
         this time you dont use the square brackets
     """
-    #select_query = artist_table.select().where(artist_table.c.Name == "Queen")
+    # select_query = artist_table.select().where(artist_table.c.Name == "Queen")
 
 
     #           query 4 - select only by "ArtistId" #51 the "Artist" table
-    #select_query = artist_table.select().where(artist_table.c.ArtistId == 51)
+    # select_query = artist_table.select().where(artist_table.c.ArtistId == 51)
 
 
     #           query 5 - select only by "ArtistId" #51 the "Album" table

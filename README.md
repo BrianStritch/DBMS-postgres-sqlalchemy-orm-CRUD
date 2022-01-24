@@ -124,10 +124,14 @@ wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDa
 # __sql-psycopg2.py__
     - instructions-psql-psycopg2.py
        - this file contains the entry level instructions to execute basic queries on a DB
+       - see the sql-psycopg2.py file for further instructions and notes
 
-# __SQLAlchemy.py__
-    - instructions-sqlAlchemy.py
-       - this file contains the entry level instructions to execute basic queries on a DB
+# __instructions-sqlAlchemy.py__
+    - instructions-sqlAlchemy.py for installing sqlAlchemy
+
+# __sql-expression.py__
+       - this file contains the middle level instructions to execute queries on a DB using sql statements written in a more pythonic way.
+       - see the sql-expression.py file for further instructions and notes
 
 
 

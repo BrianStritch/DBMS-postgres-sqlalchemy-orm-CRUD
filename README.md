@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDa
 
     1. To view, or list, any databases in our environment, we can type \l.
 
-    2. to cvreate a new database , type , CREATE DATABASE chinook;
+    2. to create a new database , type , CREATE DATABASE chinook;
 
     3.  the standard way to separate each SQL statement is by adding a semicolon at the end of the statement, since you can theoretically
     combine multiple commands in a single entry.
@@ -138,4 +138,22 @@ wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDa
        - this file contains the top level instructions to execute queries on a DB using python classes instead of using tables and connections.
        - see the sql-orm.py file for further instructions and notes
 
+.
+.
+.
+.
+.
+.
+.
+# __DBMS CODE ALONG__
+.
+.
+.
+# __CRUD__
+  - Create
+  - Read
+  - Update
+  - Delete
+
+## __Create and Read
 

@@ -21,7 +21,7 @@ cursor = connection.cursor()
 
 # these queries get put here specifically between the cursor and results
 # query 1 - select all records from the "Artist" table
-#cursor.execute('SELECT * FROM "Artist"')
+cursor.execute('SELECT * FROM "Artist"')
 #cursor.execute("SELECT * FROM 'Artist'") this is an example that will throw a syntax error because of the single and double quotes
 
 # query 2 - select only the name column from the "Artist" table
